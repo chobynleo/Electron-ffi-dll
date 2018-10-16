@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>electron-ffi-dll</title>
+</head>
+<body>
+  <div id="root">
+    这个dll的函数是 `int double(int n1);`,即输入一个数，将其乘以2后，返回这个结果，例：
+    <input id="input" type="number">
+    <button id="button" onclick="double()"> X 2 = </button>
+    <input id="result" >
+  </div>
+<script type="text/javascript" src="../src/modules/dll/index.js"></script>
+</body>
+
+</html>
